@@ -1,0 +1,19 @@
+{
+  "name": "web-tree-sitter-default-export-type-issue",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Minimal reproduction of web-tree-sitter CJS default export type mismatch",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1",
+    "web-tree-sitter": "0.26.3"
+  },
+  "devDependencies": {
+    "@types/emscripten": "^1.41.5",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
